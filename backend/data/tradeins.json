@@ -1,0 +1,22 @@
+[
+  {
+    "tradeInId": "TDI-1780239744406-6nmxmu",
+    "customerId": "CUS-1780237159269-9bdivf",
+    "bookIsbn": "9780306406157",
+    "condition": "Fair",
+    "creditIssued": 1.25,
+    "status": "Approved",
+    "approverId": "CUS-1780052614121-pgr6wi",
+    "approvalDate": "2026-05-31T15:03:11.842Z",
+    "recordDate": "2026-05-31T15:02:24.406Z"
+  },
+  {
+    "tradeInId": "TDI-1780244221547-gnntfw",
+    "customerId": "CUS-1780243546805-wbh9uv",
+    "bookIsbn": "9780062315007",
+    "condition": "Good",
+    "creditIssued": 14,
+    "status": "Pending",
+    "recordDate": "2026-05-31T16:17:01.547Z"
+  }
+]
