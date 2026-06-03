@@ -1,0 +1,94 @@
+[
+  {
+    "orderId": "ORD-1780239730850-g7oatn",
+    "date": "2026-05-31T15:02:10.850Z",
+    "status": "Created",
+    "customerId": "CUS-1780237159269-9bdivf",
+    "lines": [
+      {
+        "isbn": "9780306406157",
+        "quantity": 1,
+        "priceAtSale": 5,
+        "lineTotal": 5
+      }
+    ],
+    "payments": [],
+    "totalAmount": 5.5
+  },
+  {
+    "orderId": "ORD-1780239836127-szeywk",
+    "date": "2026-05-31T15:03:56.127Z",
+    "status": "Created",
+    "customerId": "CUS-1780237159269-9bdivf",
+    "lines": [
+      {
+        "isbn": "9780062315007",
+        "quantity": 1,
+        "priceAtSale": 34.99,
+        "lineTotal": 34.99
+      }
+    ],
+    "payments": [],
+    "totalAmount": 38.49
+  },
+  {
+    "orderId": "ORD-1780240289258-kjjqwq",
+    "date": "2026-05-31T15:11:29.258Z",
+    "status": "Paid",
+    "customerId": "CUS-1780237159269-9bdivf",
+    "lines": [
+      {
+        "isbn": "ABC",
+        "quantity": 1,
+        "priceAtSale": 22,
+        "lineTotal": 22
+      }
+    ],
+    "payments": [
+      {
+        "paymentId": "PAY-1780240294247-4psop0",
+        "orderId": "ORD-1780240289258-kjjqwq",
+        "amount": 24.2,
+        "paymentDate": "2026-05-31T15:11:34.247Z",
+        "method": "card:4242",
+        "status": "Processed",
+        "message": "Card charged (simulated)."
+      }
+    ],
+    "invoiceId": "INV-1780240294250-qdrwip",
+    "totalAmount": 24.2
+  },
+  {
+    "orderId": "ORD-1780244184091-teo9wy",
+    "date": "2026-05-31T16:16:24.091Z",
+    "status": "Paid",
+    "customerId": "CUS-1780243546805-wbh9uv",
+    "lines": [
+      {
+        "isbn": "1231231231231",
+        "quantity": 1,
+        "priceAtSale": 34,
+        "lineTotal": 34
+      },
+      {
+        "isbn": "9780062315007",
+        "quantity": 1,
+        "priceAtSale": 34.99,
+        "lineTotal": 34.99
+      }
+    ],
+    "payments": [
+      {
+        "paymentId": "PAY-1780244198961-nnl1ph",
+        "orderId": "ORD-1780244184091-teo9wy",
+        "amount": 75.89,
+        "paymentDate": "2026-05-31T16:16:38.961Z",
+        "method": "card:4242",
+        "status": "Processed",
+        "message": "Card charged (simulated)."
+      }
+    ],
+    "invoiceId": "INV-1780244198965-mpgfgu",
+    "totalAmount": 75.89
+  }
+]
