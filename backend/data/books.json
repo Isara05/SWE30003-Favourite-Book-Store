@@ -1,0 +1,44 @@
+[
+  {
+    "isbn": "9780062315007",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "format": "Hardcover",
+    "condition": "New",
+    "price": 34.99,
+    "stockLevel": 4
+  },
+  {
+    "isbn": "ABC",
+    "title": "ABC",
+    "author": "aaa",
+    "genre": "Kids",
+    "format": "Hardcover",
+    "condition": "New",
+    "price": 22,
+    "stockLevel": 2
+  },
+  {
+    "isbn": "9780306406157",
+    "title": "fdd",
+    "author": "dd",
+    "genre": "Kids",
+    "format": "Hardcover",
+    "condition": "Used",
+    "source": "Used",
+    "price": 3.5,
+    "stockLevel": 5
+  },
+  {
+    "isbn": "1231231231231",
+    "title": "ggg",
+    "author": "ggg",
+    "genre": "Comic",
+    "format": "Hardcover",
+    "condition": "Used",
+    "source": "New",
+    "price": 34,
+    "stockLevel": 2
+  }
+]
