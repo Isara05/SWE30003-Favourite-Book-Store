@@ -1,0 +1,18 @@
+[
+  {
+    "invoiceId": "INV-1780240294250-qdrwip",
+    "orderId": "ORD-1780240289258-kjjqwq",
+    "issueDate": "2026-05-31T15:11:34.250Z",
+    "totalAmount": 24.2,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780244198965-mpgfgu",
+    "orderId": "ORD-1780244184091-teo9wy",
+    "issueDate": "2026-05-31T16:16:38.965Z",
+    "totalAmount": 75.89,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  }
+]
