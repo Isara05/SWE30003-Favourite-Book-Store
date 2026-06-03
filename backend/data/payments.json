@@ -1,0 +1,38 @@
+[
+  {
+    "paymentId": "PAY-1780240294247-4psop0",
+    "orderId": "ORD-1780240289258-kjjqwq",
+    "amount": 24.2,
+    "paymentDate": "2026-05-31T15:11:34.247Z",
+    "method": "card:4242",
+    "status": "Processed",
+    "message": "Card charged (simulated)."
+  },
+  {
+    "paymentId": "PAY-1780240294247-4psop0",
+    "orderId": "ORD-1780240289258-kjjqwq",
+    "amount": 24.2,
+    "paymentDate": "2026-05-31T15:11:34.247Z",
+    "method": "card:4242",
+    "status": "Processed",
+    "message": "Card charged (simulated)."
+  },
+  {
+    "paymentId": "PAY-1780244198961-nnl1ph",
+    "orderId": "ORD-1780244184091-teo9wy",
+    "amount": 75.89,
+    "paymentDate": "2026-05-31T16:16:38.961Z",
+    "method": "card:4242",
+    "status": "Processed",
+    "message": "Card charged (simulated)."
+  },
+  {
+    "paymentId": "PAY-1780244198961-nnl1ph",
+    "orderId": "ORD-1780244184091-teo9wy",
+    "amount": 75.89,
+    "paymentDate": "2026-05-31T16:16:38.961Z",
+    "method": "card:4242",
+    "status": "Processed",
+    "message": "Card charged (simulated)."
+  }
+]
