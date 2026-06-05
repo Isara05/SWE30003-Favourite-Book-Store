@@ -1,0 +1,9 @@
+export declare function normalizeName(value: string | undefined | null): string;
+export declare function normalizeAddress(value: string | undefined | null): string;
+export declare function normalizeEmail(value: string | undefined | null): string;
+export declare function normalizePhoneNumber(value: string | undefined | null): string;
+export declare function assertName(value: string | undefined | null): string;
+export declare function assertAddress(value: string | undefined | null): string;
+export declare function assertEmail(value: string | undefined | null): string;
+export declare function assertPhoneNumber(value: string | undefined | null): string;
+export declare function assertPassword(value: string | undefined | null): string;
