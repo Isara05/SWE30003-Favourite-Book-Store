@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './staff/app.module';
+import { AppModule } from './app.module';
 
 // Starts the backend server and prepares the app.
 async function bootstrap() {

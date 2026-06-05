@@ -1,0 +1,17 @@
+{
+  "name": "favoritebooks-platform",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm --workspace backend run start:dev",
+    "dev:web": "npm --workspace frontend run dev",
+    "build:api": "npm --workspace backend run build",
+    "build:web": "npm --workspace frontend run build",
+    "lint:api": "npm --workspace backend run lint",
+    "lint:web": "npm --workspace frontend run lint"
+  }
+}
