@@ -30,5 +30,37 @@
     "totalAmount": 34.09,
     "immutable": true,
     "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780733059192-aph2re",
+    "orderId": "ORD-1780733032820-churx0",
+    "issueDate": "2026-06-06T08:04:19.192Z",
+    "totalAmount": 28.58,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780733189265-phf4ku",
+    "orderId": "ORD-1780733183641-dp3wjb",
+    "issueDate": "2026-06-06T08:06:29.265Z",
+    "totalAmount": 37.95,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780735020108-zi36pv",
+    "orderId": "ORD-1780735001552-z8vf6g",
+    "issueDate": "2026-06-06T08:37:00.108Z",
+    "totalAmount": 32.16,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780735127092-ueelkg",
+    "orderId": "ORD-1780735123659-mrlu7p",
+    "issueDate": "2026-06-06T08:38:47.092Z",
+    "totalAmount": 64.89,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
   }
 ]

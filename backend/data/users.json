@@ -8,6 +8,35 @@
     "phoneNumber": "0456789034",
     "accountBalance": 0,
     "passwordHash": "$2b$10$qVylQgQ2w8sfSl9648KbPO5Vkh5BVEHFJ2JFJPFvHNx2iFaqyVbZ6"
+  },
+  {
+    "userId": "CUS-1780733026807-h3lu9v",
+    "role": "customer",
+    "name": "Isara erandi",
+    "address": "38 remington",
+    "email": "isara@gmail.com",
+    "phoneNumber": "0451234568",
+    "accountBalance": 3.13,
+    "permissions": [
+      "shop",
+      "orders",
+      "profile"
+    ],
+    "passwordHash": "$2b$10$gS9MBlivMIVJL7nNQF.4XeGw8DYmQifZt0fRorXxakBW78Oty.daG"
+  },
+  {
+    "userId": "CUS-1780734997396-tvvv4r",
+    "role": "customer",
+    "name": "Dinaya",
+    "address": "clyde north",
+    "email": "dinaya@gmail.com",
+    "phoneNumber": "0412345678",
+    "accountBalance": 7.2,
+    "permissions": [
+      "shop",
+      "orders",
+      "profile"
+    ],
+    "passwordHash": "$2b$10$WVNTvC/TsOR8RMowPsy18uqltGaN6/r3fkndFhEe1h26x6.PtlvHi"
   }
-  
 ]

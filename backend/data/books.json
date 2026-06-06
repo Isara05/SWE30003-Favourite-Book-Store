@@ -8,7 +8,7 @@
     "condition": "New",
     "source": "New",
     "price": 22,
-    "stockLevel": 1
+    "stockLevel": 0
   },
   {
     "isbn": "9780545791878",
@@ -19,7 +19,7 @@
     "condition": "New",
     "source": "New",
     "price": 24.99,
-    "stockLevel": 8
+    "stockLevel": 7
   },
   {
     "isbn": "9780439023481",
@@ -52,7 +52,7 @@
     "condition": "New",
     "source": "New",
     "price": 9.99,
-    "stockLevel": 15
+    "stockLevel": 14
   },
   {
     "isbn": "9780060256654",
@@ -60,9 +60,9 @@
     "author": "Shel Silverstein",
     "genre": "Kids",
     "format": "Hardcover",
-    "condition": "New",
-    "source": "New",
-    "price": 17.99,
+    "condition": "Used",
+    "source": "Used",
+    "price": 12.59,
     "stockLevel": 6
   },
   {
@@ -74,7 +74,7 @@
     "condition": "Used",
     "source": "New",
     "price": 34,
-    "stockLevel": 2
+    "stockLevel": 1
   },
   {
     "isbn": "9781401238964",
@@ -95,7 +95,7 @@
     "format": "Paperback",
     "condition": "Used",
     "source": "Used",
-    "price": 12.5,
+    "price": 8.75,
     "stockLevel": 3
   },
   {
@@ -217,7 +217,7 @@
     "condition": "New",
     "source": "New",
     "price": 15.99,
-    "stockLevel": 18
+    "stockLevel": 17
   },
   {
     "isbn": "9780553103540",
@@ -327,7 +327,7 @@
     "condition": "Used",
     "source": "Used",
     "price": 11.25,
-    "stockLevel": 7
+    "stockLevel": 6
   },
   {
     "isbn": "9780062315007",

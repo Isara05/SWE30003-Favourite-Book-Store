@@ -31,5 +31,27 @@
     "approverId": "CUS-1780710730926-zsb04g",
     "approvalDate": "2026-06-06T02:05:49.380Z",
     "recordDate": "2026-06-06T01:57:45.629Z"
+  },
+  {
+    "tradeInId": "TDI-1780733222603-0wziju",
+    "customerId": "CUS-1780733026807-h3lu9v",
+    "bookIsbn": "9781506711989",
+    "condition": "Fair",
+    "creditIssued": 3.13,
+    "status": "Approved",
+    "approverId": "CUS-1780710730926-zsb04g",
+    "approvalDate": "2026-06-06T08:08:32.240Z",
+    "recordDate": "2026-06-06T08:07:02.603Z"
+  },
+  {
+    "tradeInId": "TDI-1780735142159-f5ndkx",
+    "customerId": "CUS-1780734997396-tvvv4r",
+    "bookIsbn": "9780060256654",
+    "condition": "Good",
+    "creditIssued": 7.2,
+    "status": "Approved",
+    "approverId": "CUS-1780710730926-zsb04g",
+    "approvalDate": "2026-06-06T08:40:21.108Z",
+    "recordDate": "2026-06-06T08:39:02.160Z"
   }
 ]
