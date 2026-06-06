@@ -16,7 +16,20 @@
     "bookIsbn": "9780062315007",
     "condition": "Good",
     "creditIssued": 14,
-    "status": "Pending",
+    "status": "Approved",
+    "approverId": "CUS-1780052614121-pgr6wi",
+    "approvalDate": "2026-06-06T01:39:24.183Z",
     "recordDate": "2026-05-31T16:17:01.547Z"
+  },
+  {
+    "tradeInId": "TDI-1780711065629-cbz0le",
+    "customerId": "CUS-1780710931678-hskjke",
+    "bookIsbn": "9780439023481",
+    "condition": "Fair",
+    "creditIssued": 2.25,
+    "status": "Approved",
+    "approverId": "CUS-1780710730926-zsb04g",
+    "approvalDate": "2026-06-06T02:05:49.380Z",
+    "recordDate": "2026-06-06T01:57:45.629Z"
   }
 ]

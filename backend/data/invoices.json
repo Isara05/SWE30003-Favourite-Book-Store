@@ -14,5 +14,21 @@
     "totalAmount": 75.89,
     "immutable": true,
     "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780709641553-4o7iy9",
+    "orderId": "ORD-1780709590804-3ds9ya",
+    "issueDate": "2026-06-06T01:34:01.553Z",
+    "totalAmount": 28.05,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
+  },
+  {
+    "invoiceId": "INV-1780711040787-dqwu61",
+    "orderId": "ORD-1780711037730-r7n3f5",
+    "issueDate": "2026-06-06T01:57:20.787Z",
+    "totalAmount": 34.09,
+    "immutable": true,
+    "auditComment": "Generated from a paid order and locked for compliance review."
   }
 ]

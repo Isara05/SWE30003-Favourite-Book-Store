@@ -10,7 +10,7 @@ exports.assertEmail = assertEmail;
 exports.assertPhoneNumber = assertPhoneNumber;
 exports.assertPassword = assertPassword;
 const common_1 = require("@nestjs/common");
-const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const EMAIL_PATTERN = /^[^\s@]+@gmail\.com$/i;
 function trimValue(value) {
     return (value ?? '').trim();
 }
@@ -49,9 +49,10 @@ function assertEmail(value) {
 }
 function assertPhoneNumber(value) {
     const phoneNumber = normalizePhoneNumber(value);
-    const digitCount = phoneNumber.replace(/\D/g, '').length;
-    if (digitCount < 7 || digitCount > 15 || !/^[+]?[-()\d\s.]+$/.test(phoneNumber)) {
-        throw new common_1.BadRequestException('Phone number must contain 7 to 15 digits and only standard phone characters.');
+    const normalized = phoneNumber.replace(/[\s()-]/g, '');
+    const PhonePattern = /^(?:\+61|0)(?:[23478]\d{8}|4\d{8})$/;
+    if (!PhonePattern.test(normalized)) {
+        throw new common_1.BadRequestException('Please enter a valid phone number.');
     }
     return phoneNumber;
 }

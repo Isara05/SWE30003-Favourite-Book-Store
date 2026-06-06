@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 
-const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const EMAIL_PATTERN =  /^[^\s@]+@gmail\.com$/i;
 
 // Handles the trim value logic.
 function trimValue(value: string | undefined | null): string {
@@ -59,10 +59,20 @@ export function assertEmail(value: string | undefined | null): string {
 // Checks that the phone number value is valid.
 export function assertPhoneNumber(value: string | undefined | null): string {
   const phoneNumber = normalizePhoneNumber(value);
-  const digitCount = phoneNumber.replace(/\D/g, '').length;
-  if (digitCount < 7 || digitCount > 15 || !/^[+]?[-()\d\s.]+$/.test(phoneNumber)) {
-    throw new BadRequestException('Phone number must contain 7 to 15 digits and only standard phone characters.');
+
+  // Remove spaces, brackets and hyphens before validation
+  const normalized = phoneNumber.replace(/[\s()-]/g, '');
+
+  //phone numbers
+  const PhonePattern =
+    /^(?:\+61|0)(?:[23478]\d{8}|4\d{8})$/;
+
+  if (!PhonePattern.test(normalized)) {
+    throw new BadRequestException(
+      'Please enter a valid phone number.'
+    );
   }
+
   return phoneNumber;
 }
 

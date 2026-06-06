@@ -29,7 +29,7 @@ export default function SignupPage() {
       const migratedCart = migrateGuestCartToUser(session.user.id);
       router.push(migratedCart.length > 0 ? '/checkout' : '/profile');
     } catch (error) {
-      message.error('Could not create your account. That email may already be in use.');
+      message.error('Could not create your account. Check your email and the phone number.');
     }
   }
 
