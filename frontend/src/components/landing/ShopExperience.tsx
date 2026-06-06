@@ -158,7 +158,7 @@ export function ShopExperience({ renderHeader }: ShopExperienceProps) {
         resultCount={filteredBooks.length}
       />
 
-      <main className="fb-catalog">
+      <main className="fb-catalog" id="catalog">
         {loadingBooks ? (
           <div className="fb-empty fb-reveal reveal-on-scroll">Loading catalog...</div>
         ) : null}

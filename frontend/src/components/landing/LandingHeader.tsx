@@ -14,6 +14,17 @@ type LandingHeaderProps = {
 
 // Renders the landing header section.
 export function LandingHeader({ cartCount = 0, onOpenCart, user, onLogout }: LandingHeaderProps) {
+  const handleNavClick = (genre: string) => {
+    // Find the genre section by looking for h4 with matching text
+    const sections = document.querySelectorAll('h4');
+    for (const section of sections) {
+      if (section.textContent?.toLowerCase().includes(genre.toLowerCase())) {
+        section.scrollIntoView({ behavior: 'smooth' });
+        break;
+      }
+    }
+  };
+
   return (
     <header className="fb-topbar fb-fade">
       <div className="fb-brand">
@@ -22,11 +33,11 @@ export function LandingHeader({ cartCount = 0, onOpenCart, user, onLogout }: Lan
       </div>
 
       <nav className="fb-nav" aria-label="Primary navigation">
-        <a href="#catalog">Catalog</a>
-        <a href="#kids">Kids</a>
-        <a href="#comics">Comics</a>
-        <a href="#used-books">Used books</a>
-        <a href="#services">Services</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' }); }}>Catalog</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); handleNavClick('kids'); }}>Kids</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); handleNavClick('comic'); }}>Comics</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); handleNavClick('used'); }}>Used books</a>
+        <Link href="/#services">Services</Link>
       </nav>
 
       <div className="fb-topbar-right">
