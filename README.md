@@ -1,3 +1,27 @@
+# Favourite Books — Full-Stack Online Bookstore 📚
+
+**Next.js · React · TypeScript · NestJS · Node.js · JWT**
+
+A team-developed bookstore web application for **SWE30003 Software Architectures and Design** at Swinburne University of Technology. It supports book browsing, accounts, shopping carts, order handling, simulated payments, and staff/manager management functions.
+
+### My role — Integration Lead
+I contributed to frontend–backend integration, profile/dashboard functionality, integration testing, pull-request coordination, and project reporting. This was a **collaborative team project**, not a solo implementation.
+
+### Architecture
+| Layer | Technology |
+| --- | --- |
+| Frontend | Next.js, React, Ant Design |
+| Backend | NestJS, Node.js |
+| Authentication | JWT, bcrypt |
+| Storage | Local JSON files |
+| Payments | Simulated only |
+
+**Quick start:** Run `npm install` at the repository root, then start `npm run dev:api` and `npm run dev:web` in separate terminals. See the detailed setup instructions and limitations below.
+
+---
+
+## Detailed project documentation
+
 # Online Bookstore System
 
 ## Project Information
